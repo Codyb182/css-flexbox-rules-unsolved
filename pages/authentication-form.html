@@ -45,6 +45,7 @@
               id="password-field"
               placeholder="passwords must match"
               minlength="8"
+              maxlength="20"
               required
             />
           </div>
@@ -116,6 +117,7 @@
               minlength="12"
               maxlength="12"
               placeholder="ex.: +12336456355"
+              required
             />
           </div>
           <div class="form-input-control">
@@ -142,16 +144,16 @@
               </select>
             </div>
           </div>
-          <div class="form-input-control">
+          <div class="gender-input">
             <p>Gender</p>
             <div class="form-group-vertical-control">
               <div class="form-radio-control">
                 <input type="radio" id="male" name="gender" value="male" />
-                <label for="male">Male</label>
+                <label for="male" id="male">Male</label>
               </div>
               <div class="form-radio-control">
                 <input type="radio" id="female" name="gender" value="female" />
-                <label for="female">Female</label>
+                <label for="female" id="female">Female</label>
               </div>
               <div class="form-radio-control">
                 <input
@@ -161,7 +163,7 @@
                   value="other"
                   checked
                 />
-                <label for="other">Other</label>
+                <label for="other" id="other">Other</label>
               </div>
             </div>
           </div>
